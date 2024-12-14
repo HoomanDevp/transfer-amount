@@ -2,18 +2,21 @@ package ir.stts.transferamount.adapters.controller;
 
 
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/account/transfer/internal/")
 public class AutoTransferController {
 
     @PostMapping("/init/")
-    public void transferAmount(Long paymentDetailId) {
+    @ResponseBody
+    public void transferAmount() {
 
     }
 
     @PostMapping("/direct/")
-    public void transferAmountDirect(Long paymentDetailId) {
+    @ResponseBody
+    public void transferAmountDirect() {
 
     }
 

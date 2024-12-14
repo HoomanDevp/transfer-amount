@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 public class RtgsServiceImpl implements RtgsUseCases {
 
     @Override
-    public void transferAmount(Long paymentDetailId) {
+    public void transferAmount() {
 
     }
 }
